@@ -17,8 +17,8 @@
    <widget class="QLabel" name="label_trem1">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>30</y>
+      <x>300</x>
+      <y>20</y>
       <width>21</width>
       <height>17</height>
      </rect>
@@ -33,8 +33,8 @@
    <widget class="QLabel" name="label_trem2">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>30</y>
+      <x>160</x>
+      <y>140</y>
       <width>21</width>
       <height>17</height>
      </rect>
@@ -49,8 +49,8 @@
    <widget class="QLabel" name="label_trem3">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>30</y>
+      <x>440</x>
+      <y>140</y>
       <width>21</width>
       <height>17</height>
      </rect>
@@ -65,8 +65,8 @@
    <widget class="QLabel" name="label_trem4">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>140</y>
+      <x>20</x>
+      <y>260</y>
       <width>21</width>
       <height>17</height>
      </rect>
@@ -81,8 +81,8 @@
    <widget class="QLabel" name="label_trem5">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>140</y>
+      <x>300</x>
+      <y>260</y>
       <width>21</width>
       <height>17</height>
      </rect>
@@ -97,8 +97,8 @@
    <widget class="QLabel" name="label_trem6">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>140</y>
+      <x>580</x>
+      <y>260</y>
       <width>21</width>
       <height>17</height>
      </rect>
@@ -110,6 +110,352 @@
      <string>T6</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_trem6_2">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>20</y>
+      <width>260</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: yellow}</string>
+    </property>
+    <property name="text">
+     <string>label_trilho1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem6_3">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>140</y>
+      <width>260</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: yellow}</string>
+    </property>
+    <property name="text">
+     <string>label_trilho1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem6_4">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>20</y>
+      <width>21</width>
+      <height>137</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: yellow}</string>
+    </property>
+    <property name="text">
+     <string>label_trilho1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem6_5">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>20</y>
+      <width>21</width>
+      <height>137</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: yellow}</string>
+    </property>
+    <property name="text">
+     <string>label_trilho1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem6_6">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>260</y>
+      <width>260</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: yellow}</string>
+    </property>
+    <property name="text">
+     <string>label_trilho1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem6_9">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>260</y>
+      <width>21</width>
+      <height>137</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: yellow}</string>
+    </property>
+    <property name="text">
+     <string>label_trilho1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem6_10">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>380</y>
+      <width>260</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: yellow}</string>
+    </property>
+    <property name="text">
+     <string>label_trilho1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem6_11">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>260</y>
+      <width>21</width>
+      <height>137</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: yellow}</string>
+    </property>
+    <property name="text">
+     <string>label_trilho1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem6_7">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>140</y>
+      <width>260</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: yellow}</string>
+    </property>
+    <property name="text">
+     <string>label_trilho1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem6_8">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>140</y>
+      <width>21</width>
+      <height>137</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: yellow}</string>
+    </property>
+    <property name="text">
+     <string>label_trilho1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem6_12">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>140</y>
+      <width>21</width>
+      <height>137</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: yellow}</string>
+    </property>
+    <property name="text">
+     <string>label_trilho1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem6_13">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>140</y>
+      <width>21</width>
+      <height>137</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: yellow}</string>
+    </property>
+    <property name="text">
+     <string>label_trilho1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem6_14">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>260</y>
+      <width>21</width>
+      <height>137</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: yellow}</string>
+    </property>
+    <property name="text">
+     <string>label_trilho1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem6_15">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>260</y>
+      <width>21</width>
+      <height>137</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: yellow}</string>
+    </property>
+    <property name="text">
+     <string>label_trilho1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem6_16">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>260</y>
+      <width>260</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: yellow}</string>
+    </property>
+    <property name="text">
+     <string>label_trilho1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem6_17">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>260</y>
+      <width>260</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: yellow}</string>
+    </property>
+    <property name="text">
+     <string>label_trilho1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem6_18">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>380</y>
+      <width>260</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: yellow}</string>
+    </property>
+    <property name="text">
+     <string>label_trilho1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem6_19">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>380</y>
+      <width>260</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: yellow}</string>
+    </property>
+    <property name="text">
+     <string>label_trilho1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem6_20">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>260</y>
+      <width>260</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: yellow}</string>
+    </property>
+    <property name="text">
+     <string>label_trilho1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem6_21">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>140</y>
+      <width>260</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: yellow}</string>
+    </property>
+    <property name="text">
+     <string>label_trilho1</string>
+    </property>
+   </widget>
+   <zorder>label_trem6_2</zorder>
+   <zorder>label_trem6_3</zorder>
+   <zorder>label_trem6_4</zorder>
+   <zorder>label_trem6_5</zorder>
+   <zorder>label_trem6_6</zorder>
+   <zorder>label_trem6_9</zorder>
+   <zorder>label_trem6_10</zorder>
+   <zorder>label_trem6_11</zorder>
+   <zorder>label_trem6_7</zorder>
+   <zorder>label_trem6_8</zorder>
+   <zorder>label_trem6_12</zorder>
+   <zorder>label_trem6_13</zorder>
+   <zorder>label_trem6_14</zorder>
+   <zorder>label_trem6_15</zorder>
+   <zorder>label_trem6_16</zorder>
+   <zorder>label_trem6_17</zorder>
+   <zorder>label_trem6_18</zorder>
+   <zorder>label_trem6_19</zorder>
+   <zorder>label_trem6_20</zorder>
+   <zorder>label_trem6_21</zorder>
+   <zorder>label_trem1</zorder>
+   <zorder>label_trem2</zorder>
+   <zorder>label_trem4</zorder>
+   <zorder>label_trem3</zorder>
+   <zorder>label_trem5</zorder>
+   <zorder>label_trem6</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
