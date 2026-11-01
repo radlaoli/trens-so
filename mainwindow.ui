@@ -110,7 +110,7 @@
      <string>T6</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem6_2">
+   <widget class="QLabel" name="label_trilho1">
     <property name="geometry">
      <rect>
       <x>320</x>
@@ -126,7 +126,7 @@
      <string>label_trilho1</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem6_3">
+   <widget class="QLabel" name="label_trilho19">
     <property name="geometry">
      <rect>
       <x>320</x>
@@ -142,7 +142,7 @@
      <string>label_trilho1</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem6_4">
+   <widget class="QLabel" name="label_trilho2">
     <property name="geometry">
      <rect>
       <x>300</x>
@@ -155,10 +155,10 @@
      <string notr="true">QLabel { background: yellow}</string>
     </property>
     <property name="text">
-     <string>label_trilho1</string>
+     <string>label_trilho2</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem6_5">
+   <widget class="QLabel" name="label_trilho3">
     <property name="geometry">
      <rect>
       <x>560</x>
@@ -171,10 +171,10 @@
      <string notr="true">QLabel { background: yellow}</string>
     </property>
     <property name="text">
-     <string>label_trilho1</string>
+     <string>label_trilho3</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem6_6">
+   <widget class="QLabel" name="label_trilho20">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -190,7 +190,7 @@
      <string>label_trilho1</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem6_9">
+   <widget class="QLabel" name="label_trilho12">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -203,10 +203,10 @@
      <string notr="true">QLabel { background: yellow}</string>
     </property>
     <property name="text">
-     <string>label_trilho1</string>
+     <string>label_trilho12</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem6_10">
+   <widget class="QLabel" name="label_trilho16">
     <property name="geometry">
      <rect>
       <x>40</x>
@@ -219,10 +219,10 @@
      <string notr="true">QLabel { background: yellow}</string>
     </property>
     <property name="text">
-     <string>label_trilho1</string>
+     <string>label_trilho16</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem6_11">
+   <widget class="QLabel" name="label_trilho13">
     <property name="geometry">
      <rect>
       <x>300</x>
@@ -235,10 +235,10 @@
      <string notr="true">QLabel { background: yellow}</string>
     </property>
     <property name="text">
-     <string>label_trilho1</string>
+     <string>label_trilho13</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem6_7">
+   <widget class="QLabel" name="label_trilho4">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -251,10 +251,10 @@
      <string notr="true">QLabel { background: yellow}</string>
     </property>
     <property name="text">
-     <string>label_trilho1</string>
+     <string>label_trilho4</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem6_8">
+   <widget class="QLabel" name="label_trilho6">
     <property name="geometry">
      <rect>
       <x>160</x>
@@ -267,10 +267,10 @@
      <string notr="true">QLabel { background: yellow}</string>
     </property>
     <property name="text">
-     <string>label_trilho1</string>
+     <string>label_trilho6</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem6_12">
+   <widget class="QLabel" name="label_trilho7">
     <property name="geometry">
      <rect>
       <x>440</x>
@@ -283,10 +283,10 @@
      <string notr="true">QLabel { background: yellow}</string>
     </property>
     <property name="text">
-     <string>label_trilho1</string>
+     <string>label_trilho7</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem6_13">
+   <widget class="QLabel" name="label_trilho8">
     <property name="geometry">
      <rect>
       <x>720</x>
@@ -299,10 +299,10 @@
      <string notr="true">QLabel { background: yellow}</string>
     </property>
     <property name="text">
-     <string>label_trilho1</string>
+     <string>label_trilho8</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem6_14">
+   <widget class="QLabel" name="label_trilho14">
     <property name="geometry">
      <rect>
       <x>580</x>
@@ -315,10 +315,10 @@
      <string notr="true">QLabel { background: yellow}</string>
     </property>
     <property name="text">
-     <string>label_trilho1</string>
+     <string>label_trilho14</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem6_15">
+   <widget class="QLabel" name="label_trilho15">
     <property name="geometry">
      <rect>
       <x>860</x>
@@ -331,10 +331,10 @@
      <string notr="true">QLabel { background: yellow}</string>
     </property>
     <property name="text">
-     <string>label_trilho1</string>
+     <string>label_trilho15</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem6_16">
+   <widget class="QLabel" name="label_trilho10">
     <property name="geometry">
      <rect>
       <x>320</x>
@@ -347,10 +347,10 @@
      <string notr="true">QLabel { background: yellow}</string>
     </property>
     <property name="text">
-     <string>label_trilho1</string>
+     <string>label_trilho10</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem6_17">
+   <widget class="QLabel" name="label_trilho11">
     <property name="geometry">
      <rect>
       <x>600</x>
@@ -363,10 +363,10 @@
      <string notr="true">QLabel { background: yellow}</string>
     </property>
     <property name="text">
-     <string>label_trilho1</string>
+     <string>label_trilho11</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem6_18">
+   <widget class="QLabel" name="label_trilho17">
     <property name="geometry">
      <rect>
       <x>320</x>
@@ -379,10 +379,10 @@
      <string notr="true">QLabel { background: yellow}</string>
     </property>
     <property name="text">
-     <string>label_trilho1</string>
+     <string>label_trilho17</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem6_19">
+   <widget class="QLabel" name="label_trilho18">
     <property name="geometry">
      <rect>
       <x>600</x>
@@ -395,10 +395,10 @@
      <string notr="true">QLabel { background: yellow}</string>
     </property>
     <property name="text">
-     <string>label_trilho1</string>
+     <string>label_trilho18</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem6_20">
+   <widget class="QLabel" name="label_trilho9">
     <property name="geometry">
      <rect>
       <x>40</x>
@@ -411,10 +411,10 @@
      <string notr="true">QLabel { background: yellow}</string>
     </property>
     <property name="text">
-     <string>label_trilho1</string>
+     <string>label_trilho9</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_trem6_21">
+   <widget class="QLabel" name="label_trilho5">
     <property name="geometry">
      <rect>
       <x>460</x>
@@ -427,7 +427,7 @@
      <string notr="true">QLabel { background: yellow}</string>
     </property>
     <property name="text">
-     <string>label_trilho1</string>
+     <string>label_trilho5</string>
     </property>
    </widget>
    <widget class="QSlider" name="Slide_trem_1">
@@ -654,26 +654,26 @@
      <string>Slider Geral</string>
     </property>
    </widget>
-   <zorder>label_trem6_2</zorder>
-   <zorder>label_trem6_3</zorder>
-   <zorder>label_trem6_4</zorder>
-   <zorder>label_trem6_5</zorder>
-   <zorder>label_trem6_6</zorder>
-   <zorder>label_trem6_9</zorder>
-   <zorder>label_trem6_10</zorder>
-   <zorder>label_trem6_11</zorder>
-   <zorder>label_trem6_7</zorder>
-   <zorder>label_trem6_8</zorder>
-   <zorder>label_trem6_12</zorder>
-   <zorder>label_trem6_13</zorder>
-   <zorder>label_trem6_14</zorder>
-   <zorder>label_trem6_15</zorder>
-   <zorder>label_trem6_16</zorder>
-   <zorder>label_trem6_17</zorder>
-   <zorder>label_trem6_18</zorder>
-   <zorder>label_trem6_19</zorder>
-   <zorder>label_trem6_20</zorder>
-   <zorder>label_trem6_21</zorder>
+   <zorder>label_trilho1</zorder>
+   <zorder>label_trilho19</zorder>
+   <zorder>label_trilho2</zorder>
+   <zorder>label_trilho3</zorder>
+   <zorder>label_trilho20</zorder>
+   <zorder>label_trilho12</zorder>
+   <zorder>label_trilho16</zorder>
+   <zorder>label_trilho13</zorder>
+   <zorder>label_trilho4</zorder>
+   <zorder>label_trilho6</zorder>
+   <zorder>label_trilho7</zorder>
+   <zorder>label_trilho8</zorder>
+   <zorder>label_trilho14</zorder>
+   <zorder>label_trilho15</zorder>
+   <zorder>label_trilho10</zorder>
+   <zorder>label_trilho11</zorder>
+   <zorder>label_trilho17</zorder>
+   <zorder>label_trilho18</zorder>
+   <zorder>label_trilho9</zorder>
+   <zorder>label_trilho5</zorder>
    <zorder>label_trem1</zorder>
    <zorder>label_trem2</zorder>
    <zorder>label_trem4</zorder>
