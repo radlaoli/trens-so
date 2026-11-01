@@ -161,7 +161,7 @@
    <widget class="QLabel" name="label_trilho3">
     <property name="geometry">
      <rect>
-      <x>560</x>
+      <x>580</x>
       <y>20</y>
       <width>21</width>
       <height>137</height>
@@ -433,7 +433,7 @@
    <widget class="QSlider" name="Slide_trem_1">
     <property name="geometry">
      <rect>
-      <x>1110</x>
+      <x>1060</x>
       <y>70</y>
       <width>160</width>
       <height>22</height>
@@ -452,7 +452,7 @@
    <widget class="QSlider" name="Slide_trem_2">
     <property name="geometry">
      <rect>
-      <x>1110</x>
+      <x>1060</x>
       <y>120</y>
       <width>160</width>
       <height>22</height>
@@ -471,7 +471,7 @@
    <widget class="QSlider" name="Slide_trem_3">
     <property name="geometry">
      <rect>
-      <x>1110</x>
+      <x>1060</x>
       <y>170</y>
       <width>160</width>
       <height>22</height>
@@ -490,7 +490,7 @@
    <widget class="QSlider" name="Slide_trem_4">
     <property name="geometry">
      <rect>
-      <x>1110</x>
+      <x>1060</x>
       <y>220</y>
       <width>160</width>
       <height>22</height>
@@ -509,7 +509,7 @@
    <widget class="QSlider" name="Slide_trem_5">
     <property name="geometry">
      <rect>
-      <x>1110</x>
+      <x>1060</x>
       <y>270</y>
       <width>160</width>
       <height>22</height>
@@ -528,7 +528,7 @@
    <widget class="QSlider" name="Slide_trem_6">
     <property name="geometry">
      <rect>
-      <x>1110</x>
+      <x>1060</x>
       <y>320</y>
       <width>160</width>
       <height>22</height>
@@ -547,7 +547,7 @@
    <widget class="QSlider" name="Slide_trem_7">
     <property name="geometry">
      <rect>
-      <x>1110</x>
+      <x>1060</x>
       <y>400</y>
       <width>171</width>
       <height>41</height>
@@ -566,7 +566,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>990</x>
+      <x>940</x>
       <y>70</y>
       <width>81</width>
       <height>16</height>
@@ -579,7 +579,7 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>990</x>
+      <x>940</x>
       <y>120</y>
       <width>81</width>
       <height>16</height>
@@ -592,7 +592,7 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>990</x>
+      <x>940</x>
       <y>170</y>
       <width>81</width>
       <height>16</height>
@@ -605,7 +605,7 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>990</x>
+      <x>940</x>
       <y>220</y>
       <width>81</width>
       <height>16</height>
@@ -618,7 +618,7 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>990</x>
+      <x>940</x>
       <y>270</y>
       <width>81</width>
       <height>16</height>
@@ -631,7 +631,7 @@
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>990</x>
+      <x>940</x>
       <y>320</y>
       <width>81</width>
       <height>16</height>
@@ -644,7 +644,7 @@
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>990</x>
+      <x>940</x>
       <y>410</y>
       <width>81</width>
       <height>16</height>
@@ -701,7 +701,7 @@
      <x>0</x>
      <y>0</y>
      <width>1441</width>
-     <height>26</height>
+     <height>22</height>
     </rect>
    </property>
   </widget>

@@ -29,6 +29,13 @@ MainWindow::MainWindow(QWidget *parent) :
     connect(trem5,SIGNAL(updateGUI(int,int,int)),SLOT(updateInterface(int,int,int)));
     connect(trem6,SIGNAL(updateGUI(int,int,int)),SLOT(updateInterface(int,int,int)));
 
+    trem1->setVelocidade(ui->Slide_trem_1->value());
+    trem2->setVelocidade(ui->Slide_trem_2->value());
+    trem3->setVelocidade(ui->Slide_trem_3->value());
+    trem4->setVelocidade(ui->Slide_trem_4->value());
+    trem5->setVelocidade(ui->Slide_trem_5->value());
+    trem6->setVelocidade(ui->Slide_trem_6->value());
+
     trem1->start();
     trem2->start();
     trem3->start();
@@ -66,4 +73,20 @@ void MainWindow::updateInterface(int id, int x, int y){
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+
+void MainWindow::on_Slide_trem_1_valueChanged(int value){ trem1->setVelocidade(value); }
+void MainWindow::on_Slide_trem_2_valueChanged(int value){ trem2->setVelocidade(value); }
+void MainWindow::on_Slide_trem_3_valueChanged(int value){ trem3->setVelocidade(value); }
+void MainWindow::on_Slide_trem_4_valueChanged(int value){ trem4->setVelocidade(value); }
+void MainWindow::on_Slide_trem_5_valueChanged(int value){ trem5->setVelocidade(value); }
+void MainWindow::on_Slide_trem_6_valueChanged(int value){ trem6->setVelocidade(value); }
+
+void MainWindow::on_Slide_trem_7_valueChanged(int value){
+    ui->Slide_trem_1->setValue(value);
+    ui->Slide_trem_2->setValue(value);
+    ui->Slide_trem_3->setValue(value);
+    ui->Slide_trem_4->setValue(value);
+    ui->Slide_trem_5->setValue(value);
+    ui->Slide_trem_6->setValue(value);
 }

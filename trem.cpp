@@ -12,6 +12,13 @@ Trem::Trem(int ID, int x, int y){
 //Função a ser executada após executar trem->START
 void Trem::run(){
     while(true){
+
+        // o trem fica parado, apenas verificando de novo
+        if (velocidade == 0){
+            msleep(10);
+            continue;
+        }
+
         switch(ID){
         case 1: // Trem a  (x: 300-580, y: 20-140)
             if (y == 20 && x > 300) x -= 10;
@@ -58,10 +65,14 @@ void Trem::run(){
         default:
             break;
         }
-        msleep(velocidade);
+        //Espera antes do próximo passo. Quanto maior a velocidade, menor a espera:
+        usleep((200 - velocidade) * 1000 + 500);
     }
 }
 
+void Trem::setVelocidade(int v){
+    velocidade = v;
+}
 
 
 
