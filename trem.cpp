@@ -24,8 +24,13 @@ void Trem::run(){
 
         switch(ID){
         case 1: //Trem 1
-            if (x == 300 && y == 120) regiao[1].lock();
-            if (x == 410 && y == 140) regiao[2].lock();
+            //if (x == 300 && y == 120) regiao[1].lock();
+            //if (x == 410 && y == 140) regiao[2].lock();
+
+            if (x == 300 && y == 120){
+                regiao[2].lock();
+                regiao[1].lock();
+            }
 
             if (y == 20 && x > 300) x -= 10;
             else if (x == 300 && y < 140)  y += 10;
@@ -39,9 +44,16 @@ void Trem::run(){
             break;
 
         case 2: //Trem 2
+            //if (x == 160 && y == 240) regiao[4].lock();
+            //if (x == 270 && y == 260) regiao[5].lock();
+            //if (x == 410 && y == 260) regiao[3].lock();
+            //if (x == 440 && y == 160) regiao[1].lock();
+
             if (x == 160 && y == 240) regiao[4].lock();
-            if (x == 270 && y == 260) regiao[5].lock();
-            if (x == 410 && y == 260) regiao[3].lock();
+            if (x == 270 && y == 260){
+                regiao[3].lock();
+                regiao[5].lock();
+            }
             if (x == 440 && y == 160) regiao[1].lock();
 
             if (y == 140 && x > 160) x -= 10;
@@ -77,8 +89,13 @@ void Trem::run(){
             break;
 
         case 4: //Trem 4
-            if (x == 270 && y == 380) regiao[8].lock();
-            if (x == 300 && y == 280) regiao[4].lock();
+            //if (x == 270 && y == 380) regiao[8].lock();
+            //if (x == 300 && y == 280) regiao[4].lock();
+
+            if (x == 270 && y == 380){
+                regiao[4].lock();
+                regiao[8].lock();
+            }
 
             if (y == 260 && x > 20) x -= 10;
             else if (x == 20 && y < 380)   y += 10;
@@ -111,8 +128,13 @@ void Trem::run(){
             break;
 
         case 6: //Trem 6
-            if (x == 750 && y == 260) regiao[7].lock();
-            if (x == 610 && y == 260) regiao[9].lock();
+            //if (x == 750 && y == 260) regiao[7].lock();
+            //if (x == 610 && y == 260) regiao[9].lock();
+
+            if (x == 750 && y == 260){
+                regiao[9].lock();
+                regiao[7].lock();
+            }
 
             if (y == 260 && x > 580) x -= 10;
             else if (x == 580 && y < 380)  y += 10;
