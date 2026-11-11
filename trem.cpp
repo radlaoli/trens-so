@@ -35,10 +35,11 @@ void Trem::run(){
             else if (y == 140 && x < 580)  x += 10;
             else y -= 10;
 
+            emit updateGUI(ID, x, y);
+
             if (x == 470 && y == 140) regiao[1].unlock();
             if (x == 580 && y == 120) regiao[2].unlock();
 
-            emit updateGUI(ID, x, y);
             break;
 
         case 2: //Trem 2
@@ -55,12 +56,13 @@ void Trem::run(){
             else if (y == 260 && x < 440)  x += 10;
             else y -= 10;
 
+            emit updateGUI(ID, x, y);
+
             if (x == 330 && y == 260) regiao[4].unlock();
             if (x == 440 && y == 240) regiao[5].unlock();
             if (x == 410 && y == 140) regiao[3].unlock();
             if (x == 270 && y == 140) regiao[1].unlock();
 
-            emit updateGUI(ID, x, y);
             break;
 
         case 3: //Trem 3
@@ -74,12 +76,13 @@ void Trem::run(){
             else if (y == 260 && x < 720)  x += 10;
             else y -= 10;
 
+            emit updateGUI(ID, x, y);
+
             if (x == 440 && y == 160) regiao[2].unlock();
             if (x == 470 && y == 260) regiao[3].unlock();
             if (x == 610 && y == 260) regiao[6].unlock();
             if (x == 720 && y == 240) regiao[7].unlock();
 
-            emit updateGUI(ID, x, y);
             break;
 
         case 4: //Trem 4
@@ -94,10 +97,11 @@ void Trem::run(){
             else if (y == 380 && x < 300)  x += 10;
             else y -= 10;
 
+            emit updateGUI(ID, x, y);
+
             if (x == 270 && y == 260) regiao[8].unlock();
             if (x == 130 && y == 260) regiao[4].unlock();
 
-            emit updateGUI(ID, x, y);
             break;
 
         case 5: //Trem 5
@@ -110,13 +114,14 @@ void Trem::run(){
             else if (x == 300 && y < 380)  y += 10;
             else if (y == 380 && x < 580)  x += 10;
             else y -= 10;
+            
+            emit updateGUI(ID, x, y);
 
             if (x == 550 && y == 260) regiao[9].unlock();
             if (x == 410 && y == 260) regiao[6].unlock();
             if (x == 300 && y == 280) regiao[5].unlock();
             if (x == 330 && y == 380) regiao[8].unlock();
 
-            emit updateGUI(ID, x, y);
             break;
 
         case 6: //Trem 6
@@ -130,11 +135,12 @@ void Trem::run(){
             else if (x == 580 && y < 380)  y += 10;
             else if (y == 380 && x < 860)  x += 10;
             else y -= 10;
+            
+            emit updateGUI(ID, x, y);
 
             if (x == 580 && y == 280) regiao[7].unlock();
             if (x == 610 && y == 380) regiao[9].unlock();
 
-            emit updateGUI(ID, x, y);
             break;
 
             default:
